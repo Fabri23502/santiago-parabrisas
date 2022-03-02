@@ -1,0 +1,387 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    border-bottom: 2px solid #35858B;
+    background-color: #ffffff ;
+    font-family: 'Roboto', sans-serif;
+    
+    
+    
+}
+
+.header__contenido {
+    margin: 0 auto ;
+    height: 100% ;
+
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+.header__img {
+
+    width: 12rem ;
+    height: 6rem ;
+
+}
+
+
+.nav {
+    padding: 10px ;
+}
+
+.btn-open-sidebar {
+    display: none;
+    
+}
+
+
+.nav__lista {
+    display: inline ;
+}
+
+.nav__item {
+    display: inline ;
+    margin-left: 2rem ;
+}
+
+.nav__item--oculto {
+    display: none;
+}
+
+.nav__enlace {
+    text-decoration: none ;
+    color: #54BAB9 ;
+    font-size: 20px;
+    
+
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    
+   position: absolute;
+}
+
+.titulo__nombre {
+    text-align: center ;
+    font-size: 40px ;
+    margin-top: 100px ;
+    margin-bottom: 5px ;
+    color: #050505 ;
+    
+}
+
+.titulo__descripcion {
+    text-align: center ;
+    font-size: 15px ;
+    color: #070707 ;
+    
+}
+
+.iconos {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.iconos__facebook {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.iconos__instagram {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+
+
+
+.footer {
+    border-top: 3px solid #35858B;
+    background-color: #35858B;
+    padding: 10px;
+    height: 170px;
+    position: relative ;
+    top: 300px;
+    
+}
+
+.footer__item {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.preguntas {
+    display: flex ;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.preguntas h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+
+.preguntas p {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.formulario {
+    margin: 50px;
+    
+}
+
+.formulario__contenido {
+    border: 3px solid #35858B;
+    max-width: 370px;
+    
+}
+
+.formulario__item {
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    color: #35858B;
+    
+
+}
+
+
+.galeria {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.galeria__item{
+    max-width: 500px;
+    margin: 50px;
+    text-align: center;
+    border: 2px solid #35858B;
+    padding: 20px;
+}
+
+.servicios__titulo {
+
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.servicios {
+
+    display: flex;
+    justify-content: space-around;
+
+    margin: 200px;
+
+}
+
+.servicios img {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.servicios__cristales {
+
+    border: 2px solid #35858B;
+    max-width: 800px;
+    max-height: 800px;
+    text-align: center;
+    padding: 20px;
+
+
+
+}
+
+.servicios__cristales a {
+    color: #35858B;
+    text-decoration: none;
+
+}
+
+
+.servicios__accesorios {
+
+    border: 2px solid #35858B;
+    max-width: 800px;
+    max-height: 800px;
+    padding: 20px;
+    text-align: center;
+}
+
+.servicios__accesorios a {
+    color: #35858B;
+    text-decoration: none;
+
+}
+
+
+.cristales {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.cristales__item {
+
+    border: 2px solid #35858B;
+    max-width: 800px;
+    max-height: 800px;
+    padding: 20px;
+    text-align: center;
+    margin: 50px;
+
+}
+
+
+.cristales__item a {
+    padding: 20px;
+    color: #35858B;
+    margin: 30px;
+    text-decoration: none;
+}   
+
+.cristales__item img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+
+}
+
+
+.accesorios {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+
+.accesorios__item {
+
+    border: 2px solid #35858B;
+    max-width: 800px;
+    max-height: 800px;
+    padding: 20px;
+    text-align: center;
+    margin: 50px;
+
+}
+
+.accesorios__item a {
+    padding: 20px;
+    color: #35858B;
+    margin: 30px;
+    text-decoration: none;
+}   
+
+
+.accesorios__item img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .header__contenido {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .galeria {
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    
+    .galeria__item{
+        max-width: 300px;
+
+    }
+    
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    .btn-open-sidebar {
+        display: inline-block;
+        border: 10px ;
+        border-radius: 5px;
+        padding: 8px 12px  ;
+        background-color: #35858B;
+        color: #ffffff;
+        margin-top: 10px;
+    }
+
+    .nav__lista {
+        background-color: #35858b;
+        
+        width: 80%;
+        max-width: 200px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transform: translateX(-100%);
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem;
+        transition: transform 0.5s;
+        z-index: 100;
+        
+    }
+
+    #sidebar:target {
+        transform: translateX(0);
+    }
+    
+    .nav__item {
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px ;
+        
+    }
+
+    .nav__enlace {
+        text-decoration: solid;
+    }
+    
+    
+
+    .header__contenido {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .galeria__item{
+        max-width: 300px;
+
+    }
+
+}
