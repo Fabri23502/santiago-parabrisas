@@ -307,6 +307,29 @@ body {
 
 }
 
+.card {
+    max-width: 300px ;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.carousel carousel-dark slide {
+    max-width: 700px;
+}
+
+.d-block w-100 {
+    max-width: 100px;
+}
+
+.carousel-item active {
+    max-width: 100px;
+}
+
+.carousel-inner {
+    max-width: 700px;
+}
+
 
 @media screen and (max-width: 1024px) {
 
