@@ -1,0 +1,179 @@
+@media screen and (max-width: 1024px) {
+
+    .header__contenido {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .galeria {
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    
+    .galeria__item{
+        max-width: 300px;
+
+    }
+    
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    .btn-open-sidebar {
+        display: inline-block;
+        border: 10px ;
+        border-radius: 5px;
+        padding: 8px 12px  ;
+        background-color: #35858B;
+        color: #ffffff;
+        margin-top: 10px;
+    }
+
+    .nav__lista {
+        background-color: #35858b;
+        
+        width: 80%;
+        max-width: 200px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transform: translateX(-100%);
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem;
+        transition: transform 0.5s;
+        z-index: 100;
+        
+    }
+
+    #sidebar:target {
+        transform: translateX(0);
+    }
+    
+    .nav__item {
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px ;
+        
+    }
+
+    .nav__enlace {
+        text-decoration: solid;
+    }
+    
+    
+
+    .header__contenido {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .galeria__item{
+        max-width: 300px;
+
+    }
+
+    .preguntas p {
+        margin-left: 100px;
+        margin-right: 100px;
+
+    }
+
+    .servicios {
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .servicios img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .servicios__cristales {
+
+        border: 2px solid #35858B;
+        max-width: 200px;
+        max-height: 200px;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: -150px;
+        margin-top: -100px;
+        align-items: center;
+        
+        padding: 5px;
+        
+        
+        
+    
+    
+    }
+
+    .servicios__cristales a {
+        
+        font-size: small;
+    
+    }
+
+    .servicios__accesorios {
+
+        border: 2px solid #35858B;
+        max-width: 800px;
+        max-height: 800px;
+        padding: 20px;
+        text-align: center;
+        margin-left: -150px;
+        margin-top: 100px;
+    }
+    
+    .servicios__accesorios a {
+        
+        font-size: small;
+    
+    }
+
+
+    .cristales__item {
+
+        text-align: center;
+        
+    
+    }
+
+    .cristales__item a {
+        font-size: small;
+        
+        padding: 5px;
+    }   
+
+
+    .cristales__item img {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 30px;
+    
+    }
+
+
+    .accesorios__item img {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 30px;
+    
+    }
+
+    .accesorios__item a {
+        font-size: small;
+        
+        padding: 5px;
+    }   
+
+
+
+}
