@@ -17,19 +17,23 @@
 .iconos {
     text-align: center;
     margin-top: 10px;
+
+
+    &__facebook {
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+    }
+    
+    &__instagram {
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+    }
+
 }
 
-.iconos__facebook {
-    height: 30px;
-    width: 30px;
-    cursor: pointer;
-}
 
-.iconos__instagram {
-    height: 30px;
-    width: 30px;
-    cursor: pointer;
-}
 
 
 
@@ -80,26 +84,23 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    &__item{
+        max-width: 500px;
+        margin: 50px;
+        text-align: center;
+        border: 2px solid #35858B;
+        padding: 20px;
+    }
 }
 
-.galeria__item{
-    max-width: 500px;
-    margin: 50px;
-    text-align: center;
-    border: 2px solid #35858B;
-    padding: 20px;
-}
 
 
 
 
 
-.servicios__titulo {
 
-    color: black;
-    text-align: center;
-    margin-top: 50px;
-}
+
 
 
 
@@ -110,47 +111,53 @@
 
     margin: 200px;
 
-}
+    &__titulo {
 
-.servicios img {
-    width: 200px;
-    height: 200px;
-}
+        color: black;
+        text-align: center;
+        margin-top: 50px;
+    }
 
+    &__cristales {
 
-
-.servicios__cristales {
-
-    border: 2px solid #35858B;
-    max-width: 800px;
-    max-height: 800px;
-    text-align: center;
-    padding: 20px;
-
-
-
-}
-
-.servicios__cristales a {
-    color: #35858B;
-    text-decoration: none;
-
-}
+        border: 2px solid #35858B;
+        max-width: 800px;
+        max-height: 800px;
+        text-align: center;
+        padding: 20px;
+    
+    
+    
+    }
 
 
-.servicios__accesorios {
+    &__cristales a {
+        color: #35858B;
+        text-decoration: none;
+    
+    }
 
-    border: 2px solid #35858B;
-    max-width: 800px;
-    max-height: 800px;
-    padding: 20px;
-    text-align: center;
-    margin-left: 100px;
-}
+    & img {
+        width: 200px;
+        height: 200px;
+    }
 
-.servicios__accesorios a {
-    color: #35858B;
-    text-decoration: none;
+    &__accesorios {
+
+        border: 2px solid #35858B;
+        max-width: 800px;
+        max-height: 800px;
+        padding: 20px;
+        text-align: center;
+        margin-left: 100px;
+    }
+
+    &__accesorios a {
+        color: #35858B;
+        text-decoration: none;
+    
+    }
+    
 
 }
 
@@ -160,33 +167,34 @@
     justify-content: space-around;
     padding: 50px;
     flex-wrap: wrap;
+
+    &__item {
+
+        border: 2px solid #35858B;
+        max-width: 800px;
+        max-height: 800px;
+        padding: 20px;
+        text-align: center;
+        margin: 50px;
+    
+    }
+
+    &__item a {
+        padding: 20px;
+        color: #35858B;
+        margin: 30px;
+        text-decoration: none;
+    }   
+
+
+    &__item img {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 30px;
+    
+    }
 }
 
-.cristales__item {
-
-    border: 2px solid #35858B;
-    max-width: 800px;
-    max-height: 800px;
-    padding: 20px;
-    text-align: center;
-    margin: 50px;
-
-}
-
-
-.cristales__item a {
-    padding: 20px;
-    color: #35858B;
-    margin: 30px;
-    text-decoration: none;
-}   
-
-.cristales__item img {
-    width: 300px;
-    height: 300px;
-    margin-bottom: 30px;
-
-}
 
 
 .accesorios {
@@ -194,34 +202,36 @@
     justify-content: space-around;
     padding: 50px;
     flex-wrap: wrap;
+
+
+    &__item {
+
+        border: 2px solid #35858B;
+        max-width: 800px;
+        max-height: 800px;
+        padding: 20px;
+        text-align: center;
+        margin: 50px;
+    
+    }
+
+    &__item a {
+        padding: 20px;
+        color: #35858B;
+        margin: 30px;
+        text-decoration: none;
+    }  
+    
+    
+    &__item img {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 30px;
+    
+    }
+    
 }
 
-
-.accesorios__item {
-
-    border: 2px solid #35858B;
-    max-width: 800px;
-    max-height: 800px;
-    padding: 20px;
-    text-align: center;
-    margin: 50px;
-
-}
-
-.accesorios__item a {
-    padding: 20px;
-    color: #35858B;
-    margin: 30px;
-    text-decoration: none;
-}   
-
-
-.accesorios__item img {
-    width: 300px;
-    height: 300px;
-    margin-bottom: 30px;
-
-}
 
 .card {
     max-width: 300px ;

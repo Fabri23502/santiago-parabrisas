@@ -6,9 +6,10 @@
     position: relative ;
     top: 300px;
     
+
+    &__item {
+        color: #ffffff;
+        margin-bottom: 10px;
+    }
 }
 
-.footer__item {
-    color: #ffffff;
-    margin-bottom: 10px;
-}
