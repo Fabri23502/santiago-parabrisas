@@ -3,31 +3,31 @@
     font-size: 40px ;
     margin-top: 100px ;
     margin-bottom: 5px ;
-    color: #050505 ;
+    color: #000000 ;
     
 }
 
 .titulo__descripcion {
-    text-align: center ;
+    text-align: map-get($estilos, color);
     font-size: 15px ;
-    color: #070707 ;
+    color: #000000 ;
     
 }
 
 .iconos {
-    text-align: center;
+    text-align: map-get($estilos, color);
     margin-top: 10px;
 
 
     &__facebook {
-        height: 30px;
-        width: 30px;
+        height: map-get($estilos, tIcono);
+        width: map-get($estilos, tIcono);
         cursor: pointer;
     }
     
     &__instagram {
-        height: 30px;
-        width: 30px;
+        height: map-get($estilos, tIcono);
+        width: map-get($estilos, tIcono);
         cursor: pointer;
     }
 
