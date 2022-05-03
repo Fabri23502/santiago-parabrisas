@@ -7,38 +7,32 @@
   border-bottom: 2px solid #35858B;
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif; }
-
-.header__contenido {
-  margin: 0 auto;
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-
-.header__img {
-  width: 12rem;
-  height: 6rem; }
+  .header__contenido {
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .header__img {
+    width: 12rem;
+    height: 6rem; }
 
 .nav {
   padding: 10px; }
+  .nav__lista {
+    display: inline; }
+  .nav__item {
+    display: inline;
+    margin-left: 2rem; }
+  .nav__item--oculto {
+    display: none; }
+  .nav__enlace {
+    text-decoration: none;
+    color: #54BAB9;
+    font-size: 20px; }
 
 .btn-open-sidebar {
   display: none; }
-
-.nav__lista {
-  display: inline; }
-
-.nav__item {
-  display: inline;
-  margin-left: 2rem; }
-
-.nav__item--oculto {
-  display: none; }
-
-.nav__enlace {
-  text-decoration: none;
-  color: #54BAB9;
-  font-size: 20px; }
 
 body {
   background-color: #ffffff;
@@ -51,26 +45,24 @@ body {
   font-size: 40px;
   margin-top: 100px;
   margin-bottom: 5px;
-  color: #050505; }
+  color: #000000; }
 
 .titulo__descripcion {
   text-align: center;
   font-size: 15px;
-  color: #070707; }
+  color: #000000; }
 
 .iconos {
   text-align: center;
   margin-top: 10px; }
-
-.iconos__facebook {
-  height: 30px;
-  width: 30px;
-  cursor: pointer; }
-
-.iconos__instagram {
-  height: 30px;
-  width: 30px;
-  cursor: pointer; }
+  .iconos__facebook {
+    height: 30px;
+    width: 30px;
+    cursor: pointer; }
+  .iconos__instagram {
+    height: 30px;
+    width: 30px;
+    cursor: pointer; }
 
 .preguntas {
   display: flex;
@@ -86,122 +78,116 @@ body {
   margin-left: 250px;
   margin-right: 250px; }
 
-.formulario {
-  margin: 50px; }
+.form-label {
+  margin-bottom: 10px;
+  max-width: 400px; }
 
-.formulario__contenido {
-  border: 3px solid #35858B;
-  max-width: 370px; }
-
-.formulario__item {
-  padding: 20px;
-  text-align: center;
-  margin-top: 30px;
-  color: #35858B; }
+.btn btn-primary {
+  margin-top: 10px; }
 
 .galeria {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap; }
-
-.galeria__item {
-  max-width: 500px;
-  margin: 50px;
-  text-align: center;
-  border: 2px solid #35858B;
-  padding: 20px; }
-
-.servicios__titulo {
-  color: black;
-  text-align: center;
-  margin-top: 50px; }
+  .galeria__item {
+    max-width: 500px;
+    margin: 50px;
+    text-align: center;
+    border: 2px solid #35858B;
+    padding: 20px; }
 
 .servicios {
   display: flex;
   justify-content: space-around;
   margin: 200px; }
-
-.servicios img {
-  width: 200px;
-  height: 200px; }
-
-.servicios__cristales {
-  border: 2px solid #35858B;
-  max-width: 800px;
-  max-height: 800px;
-  text-align: center;
-  padding: 20px; }
-
-.servicios__cristales a {
-  color: #35858B;
-  text-decoration: none; }
-
-.servicios__accesorios {
-  border: 2px solid #35858B;
-  max-width: 800px;
-  max-height: 800px;
-  padding: 20px;
-  text-align: center;
-  margin-left: 100px; }
-
-.servicios__accesorios a {
-  color: #35858B;
-  text-decoration: none; }
+  .servicios__titulo {
+    color: black;
+    text-align: center;
+    margin-top: 50px; }
+  .servicios__cristales {
+    border: 2px solid #35858B;
+    max-width: 800px;
+    max-height: 800px;
+    text-align: center;
+    padding: 20px; }
+  .servicios__cristales a {
+    color: #35858B;
+    text-decoration: none; }
+  .servicios img {
+    width: 200px;
+    height: 200px; }
+  .servicios__accesorios {
+    border: 2px solid #35858B;
+    max-width: 800px;
+    max-height: 800px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 100px; }
+  .servicios__accesorios a {
+    color: #35858B;
+    text-decoration: none; }
 
 .cristales {
   display: flex;
   justify-content: space-around;
   padding: 50px;
   flex-wrap: wrap; }
-
-.cristales__item {
-  border: 2px solid #35858B;
-  max-width: 800px;
-  max-height: 800px;
-  padding: 20px;
-  text-align: center;
-  margin: 50px; }
-
-.cristales__item a {
-  padding: 20px;
-  color: #35858B;
-  margin: 30px;
-  text-decoration: none; }
-
-.cristales__item img {
-  width: 300px;
-  height: 300px;
-  margin-bottom: 30px; }
+  .cristales__item {
+    border: 2px solid #35858B;
+    max-width: 800px;
+    max-height: 800px;
+    padding: 20px;
+    text-align: center;
+    margin: 50px; }
+  .cristales__item a {
+    padding: 20px;
+    color: #35858B;
+    margin: 30px;
+    text-decoration: none; }
+  .cristales__item img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px; }
 
 .accesorios {
   display: flex;
   justify-content: space-around;
   padding: 50px;
   flex-wrap: wrap; }
-
-.accesorios__item {
-  border: 2px solid #35858B;
-  max-width: 800px;
-  max-height: 800px;
-  padding: 20px;
-  text-align: center;
-  margin: 50px; }
-
-.accesorios__item a {
-  padding: 20px;
-  color: #35858B;
-  margin: 30px;
-  text-decoration: none; }
-
-.accesorios__item img {
-  width: 300px;
-  height: 300px;
-  margin-bottom: 30px; }
+  .accesorios__item {
+    border: 2px solid #35858B;
+    max-width: 800px;
+    max-height: 800px;
+    padding: 20px;
+    text-align: center;
+    margin: 50px; }
+  .accesorios__item a {
+    padding: 20px;
+    color: #35858B;
+    margin: 30px;
+    text-decoration: none; }
+  .accesorios__item img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px; }
 
 .card {
   max-width: 300px;
   padding: 1rem;
   text-align: center; }
+
+.pcontacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.formulario {
+  width: 400px;
+  margin: 30px; }
+
+.mapa {
+  max-width: 300px;
+  max-height: 300px; }
 
 .footer {
   border-top: 3px solid #35858B;
@@ -210,10 +196,15 @@ body {
   height: 170px;
   position: relative;
   top: 300px; }
-
-.footer__item {
-  color: #ffffff;
-  margin-bottom: 10px; }
+  .footer__item {
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center; }
+  .footer__contenido {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; }
 
 @media screen and (max-width: 1024px) {
   .header__contenido {

@@ -8,26 +8,26 @@
 }
 
 .titulo__descripcion {
-    text-align: map-get($estilos, color);
+    text-align: center;
     font-size: 15px ;
     color: #000000 ;
     
 }
 
 .iconos {
-    text-align: map-get($estilos, color);
+    text-align: center;
     margin-top: 10px;
 
 
     &__facebook {
-        height: map-get($estilos, tIcono);
-        width: map-get($estilos, tIcono);
+        height: 30px;
+        width: 30px;
         cursor: pointer;
     }
     
     &__instagram {
-        height: map-get($estilos, tIcono);
-        width: map-get($estilos, tIcono);
+        height: 30px;
+        width: 30px;
         cursor: pointer;
     }
 
@@ -59,24 +59,12 @@
     margin-right: 250px;
 }
 
-.formulario {
-    margin: 50px;
-    
+.form-label{
+    margin-bottom: 10px;
+    max-width: 400px;
 }
-
-.formulario__contenido {
-    border: 3px solid #35858B;
-    max-width: 370px;
-    
-}
-
-.formulario__item {
-    padding: 20px;
-    text-align: center;
-    margin-top: 30px;
-    color: #35858B;
-    
-
+.btn btn-primary{
+    margin-top: 10px;
 }
 
 
@@ -238,4 +226,23 @@
     padding: 1rem;
     text-align: center;
 
+}
+
+
+.pcontacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.formulario {
+    width: 400px;
+    margin: 30px;
+
+
+}
+
+.mapa {
+    max-width: 300px;
+    max-height: 300px;
 }
